@@ -14,6 +14,10 @@
 		8909A224203E59E7000A9796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8909A222203E59E7000A9796 /* LaunchScreen.storyboard */; };
 		8909A22F203E59E8000A9796 /* mathgameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8909A22E203E59E8000A9796 /* mathgameTests.swift */; };
 		8909A23A203E59E8000A9796 /* mathgameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8909A239203E59E8000A9796 /* mathgameUITests.swift */; };
+		89159C3D205A032D00FCABA2 /* IBDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89159C3C205A032D00FCABA2 /* IBDesign.swift */; };
+		89159C3F205A177300FCABA2 /* timeattackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89159C3E205A177300FCABA2 /* timeattackViewController.swift */; };
+		89580709205A72FC00B9DD82 /* fibonachViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89580708205A72FC00B9DD82 /* fibonachViewController.swift */; };
+		8958070B205A886700B9DD82 /* fibonach_tViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958070A205A886700B9DD82 /* fibonach_tViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		8909A235203E59E8000A9796 /* mathgameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mathgameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8909A239203E59E8000A9796 /* mathgameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mathgameUITests.swift; sourceTree = "<group>"; };
 		8909A23B203E59E8000A9796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89159C3C205A032D00FCABA2 /* IBDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBDesign.swift; sourceTree = "<group>"; };
+		89159C3E205A177300FCABA2 /* timeattackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeattackViewController.swift; sourceTree = "<group>"; };
+		89580708205A72FC00B9DD82 /* fibonachViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fibonachViewController.swift; sourceTree = "<group>"; };
+		8958070A205A886700B9DD82 /* fibonach_tViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fibonach_tViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +105,11 @@
 		8909A218203E59E7000A9796 /* mathgame */ = {
 			isa = PBXGroup;
 			children = (
+				89159C3C205A032D00FCABA2 /* IBDesign.swift */,
 				8909A219203E59E7000A9796 /* AppDelegate.swift */,
+				89580708205A72FC00B9DD82 /* fibonachViewController.swift */,
+				8958070A205A886700B9DD82 /* fibonach_tViewController.swift */,
+				89159C3E205A177300FCABA2 /* timeattackViewController.swift */,
 				8909A21B203E59E7000A9796 /* ViewController.swift */,
 				8909A21D203E59E7000A9796 /* Main.storyboard */,
 				8909A220203E59E7000A9796 /* Assets.xcassets */,
@@ -260,7 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8909A21C203E59E7000A9796 /* ViewController.swift in Sources */,
+				89580709205A72FC00B9DD82 /* fibonachViewController.swift in Sources */,
 				8909A21A203E59E7000A9796 /* AppDelegate.swift in Sources */,
+				89159C3D205A032D00FCABA2 /* IBDesign.swift in Sources */,
+				89159C3F205A177300FCABA2 /* timeattackViewController.swift in Sources */,
+				8958070B205A886700B9DD82 /* fibonach_tViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV6EXP3568;
 				INFOPLIST_FILE = mathgame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nepuson.mathgame;
@@ -441,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV6EXP3568;
 				INFOPLIST_FILE = mathgame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nepuson.mathgame;
